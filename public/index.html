@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Socket io</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="/js/chat.js" async></script>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-window">
+            <section id="output"></section>
+            <section id="actions"></section>
+        </div>
+        <input type="text" id="username" placeholder="Username">
+        <input type="text" id="message" placeholder="Message">
+        <button id="send">Send</button>
+    </div>  
+
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
